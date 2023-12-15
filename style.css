@@ -206,3 +206,11 @@ body {
   background-color: #3882f6;
   border: 2px solid #e5e7eb;
 }
+
+/* footer */
+.footer {
+  color: #e5e7eb;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
