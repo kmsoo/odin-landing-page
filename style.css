@@ -37,12 +37,7 @@ body {
 .signUp {
   background-color: #3882f6;
   color: #e5e7eb;
-  border-radius: 10px;
-  width: 120px;
-  padding: 10px 20px;
-  border: none;
-  font-size: 18px;
-  font-weight: 800;
+
 }
 
 .signUp2 {
@@ -112,5 +107,49 @@ body {
 }
 
 .heroWrap .signUp {
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 800;
+}
 
+/* main */
+.main .img {
+  border: 4px solid #3882f6;
+  border-radius: 8px;
+  width: 150px;
+  height: 150px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info-header-text {
+  padding-top: 40px;
+}
+
+.infoWrap {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 150px 0;
+  flex-wrap: wrap;
+}
+
+.info {
+  text-align: center;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  gap: 8px;
+}
+
+.text {
+  font-size: 18px;
 }
