@@ -171,3 +171,38 @@ body {
   font-weight: 800;
   font-size: 24px;
 }
+
+/* section */
+.strong {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding: 150px 250px;
+}
+
+.sectionWrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 60px;
+  width: 100%;
+  border-radius: 10px;
+  color: #e5e7eb;
+}
+
+.signUp2 {
+  border-radius: 10px;
+  width: 120px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 800;
+  color: #e5e7eb;
+  background-color: #3882f6;
+  border: 2px solid #e5e7eb;
+}
